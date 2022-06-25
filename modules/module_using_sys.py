@@ -6,3 +6,5 @@ for i in sys.argv:
     print(i, end=' ')
 
 print('\n\nThe PYTHONPATH is ', sys.path, '\n')
+
+import module_using_name
