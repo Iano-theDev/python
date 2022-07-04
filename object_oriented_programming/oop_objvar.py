@@ -55,5 +55,8 @@ print("Robots have finished their work. So lets destroy them...\n")
 
 droid1.die()
 droid2.die()
+droid2.die()
 
 Robot.how_many()
+print(Robot.__doc__)
+print(Robot.say_hi.__doc__)

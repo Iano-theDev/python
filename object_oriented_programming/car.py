@@ -6,5 +6,7 @@ class Car:
     def say_hi(self):
         print("Hi, i'm a {}".format(Audi.brand))
 
-Audi = Car("Mac_x")
+a = Car("Audi")
+b = Car("BMW")
+c = Car("Benz")
 Audi.say_hi()
