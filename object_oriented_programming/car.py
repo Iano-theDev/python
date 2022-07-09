@@ -4,9 +4,12 @@ class Car:
         self.brand = brand
     
     def say_hi(self):
-        print("Hi, i'm a {}".format(Audi.brand))
+        print("Hi, i'm a {}".format(self.brand))
 
 a = Car("Audi")
 b = Car("BMW")
 c = Car("Benz")
-Audi.say_hi()
+
+a.say_hi()
+b.say_hi()
+c.say_hi()
